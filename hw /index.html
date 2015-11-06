@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Html - формы</title>
+</head>
+<body>
+    <form action="action.php" method="post">
+      <div>
+          <label for="fio">ФИО</label>
+      <input id="fio" type="text" placeholder="Иван Иван Иванович" name="spam[fio]">
+      </div>
+      <div>
+        <label>
+          Мужской <input type="radio" name="spam[sex]" value="0">
+        </label>
+        <div>
+          <label>
+            Женский <input type="radio" name="spam[sex]" value="1">
+          </label>
+        </div>
+        <div>
+          <label>
+
+            Не определился<input type="radio" name="spam[sex]" value="2">
+          </label>
+        </div>
+            <div>
+              <label for="city">Enter city </label>
+              <select name="city" id="city">
+                <option value="1">SAINT-P</option>
+                <option value="2">PSK</option>
+                <option value="3">Moscow</option>
+              </select>
+            </div>
+
+        <div>
+            <label>
+              News
+              <input type="checkbox" name="sections[]" value="1">
+            </label>
+            Cast
+            <input type="checkbox" name="sections[]" value="2">
+
+            <label>
+              Body
+              <input type="checkbox" name="sections[]" value="3">
+            </label>
+          </div>
+          <div>
+            <label for="comment"> </label>
+            <textarea name="comment" id="comment">
+
+            </textarea>
+          </div>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+    </form>
+</body>
+</html>
