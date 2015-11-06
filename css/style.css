@@ -1,0 +1,48 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600|Ubuntu+Condensed&subset=latin,cyrillic,latin-ext);
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+}
+h1.h2{
+    color: darkcyan;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.form-row{
+    margin: 20px 0;
+}
+
+.form-row input,
+textarea {
+    background: #efefef;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.form-row label {
+    display: block;
+}
+
+.form-row [type=radio],
+.form-row [type=checkbox] {
+    width: auto;
+}
+
