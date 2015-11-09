@@ -1,0 +1,31 @@
+@import "grid.css";
+
+.wrapper{
+    min-width: 200px;
+    max-width: 1200px;
+}
+
+
+
+
+
+
+
+
+.header {
+    background: #ccc;
+}
+
+.content {
+    background: blanchedalmond;
+        width: 70%;
+}
+
+.sidebar {
+    background: aqua;
+       width: 30%;
+}
+
+.footer {
+    background: darkgreen;
+    }

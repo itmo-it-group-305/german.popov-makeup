@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700&subset=latin,cyrillic,latin-ext);
+
+h1{
+    font-family: 'Arimo', sans-serif; font-size: 400%;
+        color: white;
+    text-shadow: black 2px 2px 2px, black -2px -2px 2px, black -2px 2px 2px, black 2px -2px 2px;
+}
+
+table {
+  table-layout: auto;
+    color: black;
+
+}
+
