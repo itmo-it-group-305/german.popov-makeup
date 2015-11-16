@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Russo+One|Rubik+Mono+One&subset=latin,cyrillic);
+@import url(//necolas.github.io/normalize.css/3.0.2/normalize.css);
+@import "grid.css";
+@import "menu.css";
+@import "reset.css";
+
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    font-size: 5em;
+    text-shadow: black 2px 2px 2px, black -2px -2px 2px, black -2px 2px 2px, black 2px -2px 2px;
+}
+
+.texture {
+    background:url("../img/grid1.jpg");
+    height: 120px;
+    width: auto;
+}
+
+#smtext {
+    padding-left: 10px;
+    font-family: 'Russo One', sans-serif;
+    font-size:0.9em;
+}
+
+.content {
+    width: auto;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin-bottom: 0.3em;
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+.img {
+    margin-left: 20px;
+    width: 100%;
+    border-radius: 10px;
+    float: left;
+   }
+
+.coach {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+
+
+
